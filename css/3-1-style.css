@@ -128,8 +128,8 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 
 
 #topbanner{
-	width: 925px;
-	height: 15px;
+	width: 127px;
+	height: 1px;
 	background:#FFFFFF;
 	font-size: 12px;
 
@@ -139,7 +139,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	letter-spacing: 5px;
 	color: #3D3D3D;
 	text-align: right;
-	padding-top: 10px;
+	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;

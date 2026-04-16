@@ -1,4 +1,4 @@
-﻿﻿/* CSS Document - Author: Shaibal Mandal */
+/* CSS Document - Author: Shaibal Mandal */
 
 
 body {
@@ -13,7 +13,7 @@ body {
 	padding-left: ;
 	background-color: #FFFFFF;
 	background-repeat: repeat-y;
-	width: 925px;
+	width: 100%;
 }
 
 /* This is the page container  */
@@ -24,7 +24,7 @@ body {
 }
 
 #container_ch {
-	width: 925px;
+	width: 100%;
 	background-color: #FFFFFF;
 	height: 60px;
 }
@@ -39,7 +39,7 @@ body {
 
 /* For taming those leeeeeeetle arrows */
 img {
-    vertical-align: text-bottom;
+	vertical-align: text-bottom;
 }
 
 /* Style-up those ugly default hyperlinks */
@@ -51,9 +51,23 @@ a {
 }
 
 /* And their ugly hover states too */
-a:link {color: #3D3D3D; border-bottom: 0px solid #fff; background: transparent;}
-a:visited {color: #3D3D3D; border-bottom: 0px solid #fff; background: transparent;}
-a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;} 
+a:link {
+	color: #3D3D3D;
+	border-bottom: 0px solid #fff;
+	background: transparent;
+}
+
+a:visited {
+	color: #3D3D3D;
+	border-bottom: 0px solid #fff;
+	background: transparent;
+}
+
+a:hover {
+	color: #488E48;
+	border-bottom: 0px solid #fff;
+	background: transparent;
+}
 
 
 #header {
@@ -70,11 +84,11 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 
 #headerlogo {
 	background-color: #FFFFFF;
-	width:925px;
+	width: 925px;
 	float: left;
 	height: 258px;
 	background-position: center;
-	
+
 }
 
 #headerslogan {
@@ -85,10 +99,10 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	height: 20px;
 	float: left;
 	padding: 2px -20px 2px 20px;
-    font-weight: normal;
+	font-weight: normal;
 	text-align: left;
 	letter-spacing: 18px;
-	
+
 }
 
 
@@ -110,7 +124,7 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	border-top-style: solid;
 	height: 40px;
 
-	}
+}
 
 #topbarmenu_ch {
 	font-size: 14px;
@@ -121,8 +135,6 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #FFF;
-	left: 25px;
-	top: 140px;
 	width: 925px;
 	vertical-align: text-top;
 	border-top-width: 1px;
@@ -130,7 +142,8 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	border-top-style: solid;
 	height: 80px;
 
-	}
+}
+
 #topbarmenu_ch1 {
 	font-size: 14px;
 	background-color: #FFF;
@@ -140,8 +153,6 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #FFF;
-	left: 25px;
-	top: 140px;
 	width: 925px;
 	vertical-align: text-top;
 	border-top-width: 1px;
@@ -149,17 +160,17 @@ a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;
 	border-top-style: solid;
 	height: 80px;
 
-	}
+}
 
 
 
 p span {
-	font-size:30px; 
-	float:left; 
-	padding-right:5px; 
-	font-family:Arial, MS Gothic, Helvetica, sans-serif;
-	color:#3D3D3D;
-	}
+	font-size: 30px;
+	float: left;
+	padding-right: 5px;
+	font-family: Arial, MS Gothic, Helvetica, sans-serif;
+	color: #3D3D3D;
+}
 
 
 #topmonth {
@@ -171,7 +182,7 @@ p span {
 
 
 
-    font-weight: normal;
+	font-weight: normal;
 	color: #3D3D3D;
 	text-align: right;
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -179,10 +190,10 @@ p span {
 
 
 
-	#menu {
+#menu {
 	list-style: none;
 	position: relative;
-	width: 925px;
+	width: auto;
 	float: none;
 	text-align: center;
 	background-position: center;
@@ -197,7 +208,7 @@ p span {
 	margin-bottom: 0;
 	margin-left: 0px;
 	padding-left: 250px;
-	}
+}
 
 
 #menu2 {
@@ -216,10 +227,10 @@ p span {
 	margin-right: 0;
 	margin-bottom: 0;
 	margin-left: 0px;
-    padding-left: 0px;
-	}
+	padding-left: 0px;
+}
 
-	#menu li {
+#menu li {
 	margin: 0;
 	padding: 0;
 	float: left;
@@ -227,7 +238,8 @@ p span {
 	text-align: center;
 	width: 80px;
 	border-bottom-width: medium;
-	}
+}
+
 #menu li2 {
 	margin: 0;
 	padding: 0;
@@ -237,7 +249,8 @@ p span {
 	text-align: center;
 	width: 40px;
 	border-bottom-width: medium;
-	}
+}
+
 #menu li3 {
 	margin: 0;
 	padding: 0;
@@ -246,7 +259,8 @@ p span {
 	text-align: center;
 	width: 100px;
 	border-bottom-width: medium;
-	}
+}
+
 #menu li4 {
 	margin: 0;
 	padding: 0;
@@ -256,7 +270,7 @@ p span {
 	text-align: center;
 	width: 100px;
 	border-bottom-width: medium;
-	}
+}
 
 #menu2 li5 {
 	margin: 0;
@@ -268,58 +282,75 @@ p span {
 	width: 95px;
 	border-bottom-width: medium;
 
-	}
+}
+
+
+#menu li6 {
+	margin: 0;
+	padding: 0;
+	padding-top: 28px;
+	float: left;
+	border-right: 0px solid #FFFFFFF;
+	text-align: center;
+	width: 265px;
+	border-bottom-width: medium;
+
+}
 
 
 
 
-	#menu li a {
+#menu li a {
 	padding-top: 7px;
 	padding-right: 0px;
 	padding-bottom: 2px;
 	display: block;
 	color: #000;
 	text-decoration: none;
-	}
+}
 
-	#menu li3 a {
+#menu li3 a {
 	padding-top: 7px;
 	padding-right: 0px;
 	padding-bottom: 2px;
 	display: block;
 	color: #000;
 	text-decoration: none;
-	}
+}
 
 
 
-	
+
 #menu li a:link {
 	color: #000;
 	border-bottom: 0 none #51BD12;
 	background: transparent;
 }
+
 #menu li a:visited {
 	color: #000;
 	border-bottom: 0px solid #fff;
 	background: transparent;
 }
+
 #menu li a:hover {
 	color: #488E48;
 	border-bottom: 4px solid #51BD12;
-} 
+}
 
 #menu li3 a:link {
 	color: #000;
 	border-bottom: 0 none #51BD12;
 	background: transparent;
 }
+
 #menu li3 a:visited {
 	color: #000;
 	border-bottom: 0px solid #fff;
 	background: transparent;
 }
+
 #menu li3 a:hover {
 	color: #488E48;
 	border-bottom: 4px solid #51BD12;
-} 
+}
