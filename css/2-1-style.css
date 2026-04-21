@@ -1,4 +1,4 @@
-﻿/* CSS Document - Author: Shaibal Mandal */
+/* CSS Document - Author: Shaibal Mandal */
 /* 整體設定、背景、段落、字體*/
 body {
 	font-size: 14px;
@@ -315,7 +315,9 @@ p span {
 	height: 206px;
 	float: left;
 	padding: 0px  0px 0px 0px;
-	margin:  0px  0px 0px 0px;	
+	margin:  0px  0px 0px 0px;
+	position: relative;
+	z-index: 10;
 }
 
 
